@@ -2,13 +2,15 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client-js"
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.1.x", "debian-openssl-3.0.x", "linux-musl", "linux-musl-openssl-3.0.x"]
 }
 
 datasource db {
   provider = "postgresql"
   // url      = "postgresql://postgres:postgres@localhost:5432/postgres?schema=public"
-  url      = "postgres://postgress_dkza_user:lzDZScI3U8JzCLCDY4BXYNLCqVh2qhEP@dpg-ch6kgf3hp8u9bo335vr0-a.oregon-postgres.render.com/postgress_dkza"
+  // url      = "postgres://postgress_dkza_user:lzDZScI3U8JzCLCDY4BXYNLCqVh2qhEP@dpg-ch6kgf3hp8u9bo335vr0-a.oregon-postgres.render.com/postgress_dkza"
+  url      = "postgresql://postgres:postgres@elite-fortal.clkj5terc8or.us-east-1.rds.amazonaws.com:5432/postgres"
 }
 
 model Users {
