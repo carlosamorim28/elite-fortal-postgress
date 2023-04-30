@@ -10,8 +10,8 @@ datasource db {
   provider = "postgresql"
   // url      = "postgresql://postgres:postgres@localhost:5432/postgres?schema=public"
   // url      = "postgres://postgress_dkza_user:lzDZScI3U8JzCLCDY4BXYNLCqVh2qhEP@dpg-ch6kgf3hp8u9bo335vr0-a.oregon-postgres.render.com/postgress_dkza"
-  // url      = "postgresql://postgres:postgres@elite-fortal.clkj5terc8or.us-east-1.rds.amazonaws.com:5432/postgres"
-  url      = "postgres://nhaktokk:qdKz6aTVlrjw4G37FJyJcQOhq4KiisiY@rosie.db.elephantsql.com/nhaktokk"
+  url      = "postgresql://postgres:postgres@elite-fortal.clkj5terc8or.us-east-1.rds.amazonaws.com:5432/postgres"
+  // url      = "postgres://nhaktokk:qdKz6aTVlrjw4G37FJyJcQOhq4KiisiY@rosie.db.elephantsql.com/nhaktokk"
 }
 
 model Users {
